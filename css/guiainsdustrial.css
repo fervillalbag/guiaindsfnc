@@ -1,0 +1,767 @@
+    body {
+        font-family: 'Noto Sans HK', sans-serif;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    input,
+    input:focus,
+    input:active {
+        outline: none !important;
+        padding-left: 0.5rem !important;
+    }
+    
+    h1,
+    h2 {
+        font-family: 'Acme', sans-serif;
+        color: #60966A;
+    }
+    
+    header {
+        background-color: white
+    }
+    
+    .contecabecera {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    .contenedorgral {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    
+    .item img {
+        width: 100% !important;
+    }
+    
+    .logo {
+        width: 30%;
+    }
+    
+    .logo img {
+        width: 100%;
+    }
+    
+    .animenu {
+        width: 70%;
+        align-items: center;
+        justify-content: center;
+        display: flex
+    }
+    
+    .registra {
+        width: 25%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .botonregistra {
+        background-color: #60966A;
+        color: white;
+        padding: 1rem 0rem;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .botonregistra a {
+        background-color: #60966A;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .contebuscador {
+        width: 100%;
+        background-color: #2D2D2D;
+        color: white;
+        padding: 2rem 0rem;
+    }
+    
+    .campobuscar {
+        background-color: inherit;
+        border: 1px solid white;
+        color: white !important;
+        padding: 10px 0px 10px 10px;
+        width: 60%;
+        font-size: 1rem;
+        font-weight: 700;
+        height: 42px;
+        border-radius: 0px
+    }
+    
+    .input-buscar {
+        height: 42px;
+        background: green;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+    }
+    
+    .input-buscar:hover {
+        opacity: 0.8;
+        cursor: pointer;
+    }
+    
+    .buscador {
+        display: block;
+        float: left;
+        width: 30%;
+        margin: 0 auto;
+    }
+    
+    .buscar {
+        display: block;
+        width: 10%;
+        float: left;
+    }
+    
+    .btnbuscar {
+        background-color: green;
+        border: 0px;
+        padding: 10px;
+        color: white;
+        font-size: 1rem;
+    }
+    
+    .banner {
+        max-width: 1200px;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 40px;
+    }
+    
+    .encontra {
+        padding: 3rem 0rem 0rem 0rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .encontra p {
+        color: #7F7F7F;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .rubros {
+        background-color: #EFEFEF;
+        padding: 3rem 0rem 7rem 0rem;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .rubros p {
+        color: #7F7F7F;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    
+    .conteniconos {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: left;
+        max-width: 1200px;
+        position: relative;
+        z-index: 123;
+    }
+    
+    .iconos {
+        width: calc(100%/6);
+        display: block;
+        position: relative;
+        text-align: center;
+        color: #60966A;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 1rem 0rem
+    }
+    
+    .solicita {
+        background-color: #60966A;
+        padding: 3rem 0rem;
+    }
+    
+    .titsolicita {
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .mailsolicita {
+        background-color: inherit;
+        border: 2px solid white;
+        color: white;
+        padding: .5rem 0rem .5rem .5rem;
+        font-size: 1rem;
+        width: 300px;
+        margin-right: 10px;
+        margin-top: 20px;
+        height: 45px;
+    }
+    
+    .enviarsolicita {
+        background-color: white;
+        color: #60966A;
+        padding: .5rem;
+        font-size: 1rem;
+        border: none;
+        height: 45px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    .enviarsolicita:hover {
+        opacity: 0.7;
+    }
+    
+    .solicitaizq {
+        width: 70%;
+        color: white;
+    }
+    
+    .solicitader {
+        width: 30%;
+        color: white
+    }
+    
+    .textofooter {
+        color: white;
+        width: 80%;
+        padding-left: 2rem;
+    }
+    
+    .redes {
+        width: 20%;
+        display: flex
+    }
+    
+    .camporegistro {
+        border: #60966A 2px solid;
+        width: 100%;
+        height: 45px !important;
+        margin: 1rem 0rem;
+    }
+    
+    .quienessomos {
+        display: block
+    }
+    
+    .quienessomos h2 {
+        color: #000;
+        font-family: 'Noto Sans HK', sans-serif;
+    }
+    
+    .infoadicional {
+        border: #60966A 2px solid;
+        width: 100%;
+        height: 100px;
+        margin: 1rem 0rem;
+    }
+    
+    .infocontactenosotros {
+        border: #60966A 2px solid;
+        width: 100%;
+        height: 240px;
+        margin: 1rem 0rem;
+    }
+    
+    .fotonegocio {
+        width: 150px;
+        height: 150px;
+        float: left;
+        border: 1px solid #000;
+        margin-left: 5px;
+    }
+    
+     ::placeholder {
+        /* Firefox, Chrome, Opera */
+        color: white;
+    }
+    
+    .fotonegocio img {
+        width: 100%;
+    }
+    
+    .mapregistro {
+        width: 30%;
+    }
+    
+    .mapaformulario {
+        display: flex;
+    }
+    
+    .datosmapa {
+        width: 70%;
+        padding-left: 2rem;
+    }
+    
+    .formstyle {
+        width: 100%;
+        color: black
+    }
+    
+    .iconredes {
+        border-radius: 50%;
+        background-color: white;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        padding-top: 2px;
+        margin: 0px 2px
+    }
+    
+    .titpaginas {
+        width: 100%;
+        color: #60966A;
+        padding: 2rem 0rem;
+        border-bottom: 1px solid #60966A;
+        background-color: white;
+        font-family: 'Noto Sans HK', sans-serif;
+        font-size: 1.5rem
+    }
+    
+    .titsecundarios {
+        width: 100%;
+        color: #60966A;
+        padding: 1rem 0rem;
+        border-bottom: 1px solid #60966A;
+        background-color: white;
+        font-family: 'Noto Sans HK', sans-serif;
+        font-size: 1.5rem;
+        max-width: 1200px;
+    }
+    
+    .conteempresas {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        justify-content: left;
+        max-width: 1200px;
+        position: relative;
+        z-index: 123;
+    }
+    
+    .laempresa {
+        width: calc(100%/2);
+        display: block;
+        position: relative;
+        text-align: left;
+        color: #60966A;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 1rem 0rem;
+    }
+    
+    .fotoempresa {
+        width: 40%;
+        float: left;
+        display: block;
+        padding-left: 2rem;
+    }
+    
+    .fotoempresa img {
+        width: 100%;
+    }
+    
+    .descripcionempresa {
+        width: 60%;
+        float: left;
+        display: block;
+        padding-left: 2rem;
+    }
+    
+    .datos {
+        width: 90px;
+        font-weight: 700;
+        color: #7F7F7F;
+        margin-right: 5px;
+        float: left;
+        padding: 10px 0px;
+    }
+    
+    .cargadatos {
+        width: 100%;
+        font-weight: 300;
+        padding: 10px 0px;
+    }
+    
+    .leermas {
+        width: 100%;
+        font-weight: 300;
+        padding: 10px 0px;
+        text-align: right;
+    }
+    
+    .leermas a {
+        width: 100%;
+        font-weight: 300;
+        padding: 10px 0px;
+        text-align: right;
+        text-decoration: none;
+        color: #60966A;
+    }
+    
+    footer {
+        background-color: #2D2D2D;
+        padding: 2rem 0rem
+    }
+    
+    .card-anuncio {
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .fila-anuncios {
+        display: flex;
+    }
+    
+    .card-body {
+        border-right: 2px solid #ececec;
+        padding: 5px;
+        border-left: 2px solid #ececec;
+        border-bottom: 2px solid #ececec;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        margin-bottom: 40px;
+    }
+    
+    .descripcionempresa iframe {
+        margin-top: 100px;
+    }
+    
+    .back-to-top {
+        font-size: 18px;
+        border: none;
+        outline: none;
+        color: white;
+        cursor: pointer;
+        width: auto;
+    }
+
+    .back-to-top:hover {
+        text-decoration: none;
+    }
+    
+    .whatsapp {
+        bottom: 100px !important;
+    }
+    
+    .whatsapp img {
+        width: 40px;
+    }
+    
+    .messenger {
+        width: 40px;
+    }
+    
+    .imagenes {
+        display: flex;
+    }
+    
+    .imagen-comercio {
+        margin-right: 30px;
+    }
+    
+    .imagen-comercio img {
+        width: calc(100% / 1);
+    }
+    
+    .imagen-oculta {
+        display: none;
+    }
+    
+    .laempresa ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .laempresa ul li {
+        margin-bottom: 15px;
+    }
+    
+    .laempresa ul b {
+        color: #000;
+    }
+    
+    .redes-empresa i {
+        font-size: 36px;
+        margin-top: 20px;
+        margin-right: 20px;
+        color: #60966A;
+    }
+    
+    .imagenes-form {
+        display: flex;
+        margin-bottom: 40px;
+        margin-top: 25px;
+    }
+    
+    #mceu_31 {
+        display: none;
+    }
+    
+    .boton-registro {
+        background: #60966A;
+        padding: 10px;
+        border-color: #60966A;
+        color: white;
+        margin-bottom: 30px;
+        font-size: 18px;
+        width: 150px;
+        cursor: pointer;
+        margin-bottom: 40px;
+        display: block;
+    }
+    
+    .boton-registro:hover {
+        opacity: 0.7;
+    }
+    
+    .dropify {
+        height: auto !important;
+    }
+    
+    .boton-mas {
+        border-bottom: 2px solid #60966A;
+        padding: 5px;
+        text-decoration: none;
+        color: #2D2D2D;
+    }
+    
+    .boton-mas:hover {
+        text-decoration: none;
+    }
+    
+    .textoadicional {
+        height: 120px !important;
+    }
+    
+    #mapa {
+        height: 400px;
+        margin-top: 100px;
+    }
+    
+    #formulario-crear {
+        display: flex;
+        width: 400px;
+    }
+    
+    .mapa-registro {
+        margin-top: 0 !important;
+    }
+    
+    .iconos a {
+        color: #60966A;
+        text-decoration: none;
+    }
+    
+    .iconos a:hover {
+        color: #60966A;
+        text-decoration: none;
+    }
+    
+    #formulario-crear-registro b {
+        color: red;
+    }
+    
+    .owl-nav {
+        display: none !important;
+    }
+    
+    .alert {
+        color: #155724;
+        background-color: #d4edda;
+        border-color: #c3e6cb;
+        position: relative;
+        padding: .75rem 1.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        text-align: center;
+    }
+    
+    #tags {
+        display: block !important;
+    }
+    
+    .bootstrap-tagsinput .tag {
+        color: #155724 !important;
+    }
+    
+    @media screen and (max-width:520px) {
+        .contecabecera {
+            display: block;
+        }
+        .contenedorgral {
+            display: block;
+        }
+        .logo {
+            width: 100%;
+        }
+        .animenu {
+            width: 100%;
+            justify-content: right;
+        }
+        .registra {
+            width: 100%;
+        }
+        .buscador {
+            display: block;
+            float: none;
+            width: 100%;
+        }
+        .campobuscar {
+            display: block;
+            margin: 1rem auto;
+        }
+        .buscar {
+            display: block;
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            float: none;
+        }
+        .iconos {
+            width: calc(100%/2);
+        }
+        .encontra {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+        }
+        .solicitaizq {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .solicitader {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .textofooter {
+            color: white;
+            width: 90%;
+        }
+        .redes {
+            width: 90%;
+            text-align: center;
+            margin-top: 2rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .laempresa {
+            width: 100%;
+        }
+        .fotoempresa {
+            width: 100%;
+            float: none;
+            display: block;
+            padding-left: 0rem;
+            float: none;
+        }
+        .descripcionempresa {
+            width: 90%;
+            float: none;
+            display: block;
+            padding-left: 0rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .conteempresas {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .titsecundarios {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .titpaginas {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .quienessomos {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .formstyle {
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .mapaformulario {
+            display: block;
+        }
+        .mapregistro {
+            width: 100%;
+        }
+        .datosmapa {
+            width: 100%;
+            padding-left: 0rem;
+        }
+        .fotonegocio {
+            width: 100px;
+            height: 100px;
+            float: left;
+            border: 1px solid #000;
+            margin-left: 5px;
+            margin-bottom: 1rem;
+        }
+        .datos {
+            width: 100%;
+            margin-right: 0px;
+            float: none;
+            padding: 10px 0px 0px 0px;
+        }
+        .cargadatos {
+            width: 100%;
+            font-weight: 300;
+            padding: 0px 0px 10px 0px;
+        }
+        .logo img {
+            width: 200px;
+            margin: 0 auto;
+            display: block;
+        }
+        .fila-anuncios {
+            display: block;
+        }
+        #formulario-crear {
+            width: 100%;
+            display: block;
+        }
+        .mailsolicita {
+            width: 100%;
+        }
+        iframe {
+            height: 200px;
+            margin-bottom: 40px;
+        }
+        #mapa {
+            height: 200px;
+            margin-bottom: 40px;
+        }
+        .imagenes-form {
+            display: block;
+        }
+    }
