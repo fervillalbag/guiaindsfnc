@@ -560,7 +560,7 @@
     }
     
     #formulario-crear {
-        display: flex;
+        /* display: flex; */
         width: 400px;
     }
     

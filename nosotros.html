@@ -353,6 +353,11 @@
    </div>
    <br>
 
+   <!-- 
+
+      
+    -->
+
 
    <div class="solicita">
       <div class="contenedorgral">
@@ -361,10 +366,30 @@
                Solicita tu Guía Impresa<br>
                <form action="https://guiaindustrialcomercial.com.py/boletin" role="form" id="formulario-crear"
                   method="POST">
-                  <input type="hidden" name="_token" value="nr9Mzz1d7udKEapzSgTQiqWXxaOQYHpH9GlsS1RJ">
-                  <input type="text" placeholder="Nombre" name="name" class="mailsolicita" required>
-                  <input type="text" placeholder="Teléfono" name="telphone" class="mailsolicita" required>
-                  <input type="email" placeholder="Email" name="email" class="mailsolicita" required>
+                  <div class="d-flex">
+                     <input type="hidden" name="_token" value="nr9Mzz1d7udKEapzSgTQiqWXxaOQYHpH9GlsS1RJ">
+                     <input type="text" placeholder="Nombre" name="name" class="mailsolicita" required>
+                     <input type="text" placeholder="Teléfono" name="telphone" class="mailsolicita" required>
+                     <input type="email" placeholder="Email" name="email" class="mailsolicita" required>
+                  </div>
+                  <div class="">
+                     <div class="d-flex align-items-center mt-4">
+                        <div>
+                           <span style="font-size: 0.9rem; line-height: 1;">Ingrese el texto del Captcha:</span>
+                        </div>
+                        <div class="px-3">
+                           <img src="./images/captcha.jpeg" alt="">
+                        </div>
+                        <div class="px-3">
+                           <button type="button" class="input-buscar px-3 rounded">
+                              <i class="fas fa-sync-alt"></i>
+                           </button>
+                        </div>
+                     </div>
+                     <div class="w-50 mt-3">
+                        <input type="text" class="form-control">
+                     </div>
+                  </div>
                   <button type="submit" class="enviarsolicita">Suscribete</button>
                </form>
             </div>
