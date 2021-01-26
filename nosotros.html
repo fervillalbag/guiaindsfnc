@@ -323,14 +323,30 @@
                Asunto <br>
                <input type="text" class="camporegistro" name="subject" value=""><br>
 
+               <div class="d-flex align-items-center mt-4">
+                  <div>
+                     <span>Ingrese el texto del Captcha:</span>
+                  </div>
+                  <div class="px-3">
+                     <img src="./images/captcha.jpeg" alt="">
+                  </div>
+                  <div class="px-3">
+                     <button type="button" class="input-buscar px-3 rounded">
+                        <i class="fas fa-sync-alt"></i>
+                     </button>
+                  </div>
+               </div>
+               <div class="w-50 mt-3">
+                  <input type="text" class="camporegistro">
+               </div>
+
             </div>
             <div class="descripcionempresa">
                Mensaje <br>
                <textarea class="infocontactenosotros" placeholder="Escribe tu mensaje aquí." name="content"></textarea>
-
-               <button type="submit" class="btnbuscar" style="float: right">Enviar</button>
-
             </div>
+            <button type="submit" class="btnbuscar" style="float: right">Enviar</button>
+
 
          </form>
       </div>
